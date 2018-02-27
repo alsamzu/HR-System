@@ -10,7 +10,7 @@ function login(){
             
         }
         else if (c.length <=0){
-            alert("Password can not be null");
+            alert("Admin Password can not be null");
         }
        
         else if (c!=54321){
@@ -25,11 +25,25 @@ function login(){
             alert("Finance Manager your login was succesful");
         }
         else if (d.length <=0){
-            alert("Password can not be null");
+            alert("Finance Password can not be null");
         }
        
         else if (d!=12345){
            alert("Incorrect Password for finance account");
+      }
+    }
+    
+    else if( a==3){
+        var e=prompt("Welcome User.Please put your password to proceed");
+        if(e==123456){
+            alert("User your login was succesful");
+        }
+        else if (e.length <=0){
+            alert("User Password can not be null");
+        }
+       
+        else if (e!=123456){
+           alert("Incorrect Password for user account");
       }
     }
    
