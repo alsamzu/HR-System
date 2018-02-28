@@ -2,7 +2,7 @@
 
 function login(){
     var b=alert("Welcome to xyz site.Please click ok to proceed");
-    var a = prompt("Kindly choose your user name to proceed \n 1)Admin \n 2)Finance Manager \n 3)User");
+    var a = prompt("Kindly choose your user name to proceed \n 1)Admin Password 54321 \n 2)Finance Manager Password 12345  \n 3)User Password 123456");
     if(a==1){
        var c= prompt("Welcome admin. Please put your password to proceed");
         if(c==54321){
