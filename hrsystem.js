@@ -6,7 +6,7 @@ function login(){
     if(a==1){
        var c= prompt("Welcome admin. Please put your password to proceed");
         if(c==54321){
-            alert("Admin your login was succesful");
+            alert("Admin your login was succesful.Welcome to xyz inc HR system.");
             
         }
         else if (c.length <=0){
@@ -22,7 +22,7 @@ function login(){
     else if( a==2){
         var d=prompt("Welcome Finance Manager.Please put your password to proceed");
         if(d==12345){
-            alert("Finance Manager your login was succesful");
+            alert("Finance Manager your login was succesful.Welcome to xyz inc HR system.");
         }
         else if (d.length <=0){
             alert("Finance Password can not be null");
@@ -36,7 +36,7 @@ function login(){
     else if( a==3){
         var e=prompt("Welcome User.Please put your password to proceed");
         if(e==123456){
-            alert("User your login was succesful");
+            alert("User your login was succesful.Welcome to xyz inc HR system.");
         }
         else if (e.length <=0){
             alert("User Password can not be null");
