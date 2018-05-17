@@ -1,2 +1,3 @@
-var counter= require('./count');
-console.log(counter(['zulfa',"Ann","Ali",22]));
+var stuff= require('./stuff');
+console.log(stuff.counter(['zulfa',"Ann","Ali",22]));
+console.log(stuff.adder(5,7));
