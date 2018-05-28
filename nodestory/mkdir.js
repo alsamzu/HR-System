@@ -14,4 +14,6 @@ var fs = require('fs');
 //DELETING DIR ASYNC
 //We cant remove a dir if it is not empty
 //we first remove the files inside
-fs.
+fs.unlink('./newDir/writeMe.txt',function(){
+    fs.rmdir('newDir');
+})
