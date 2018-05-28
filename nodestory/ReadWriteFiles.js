@@ -14,3 +14,5 @@ fs.readFile('readme.txt','utf8', function(err,data){
 });
 //Asynchronous write file
 //var writeMe = fs.writeFile('writeme.txt',readMe +'Yeeeey');
+//DELETING FILES
+//fs.unlink('writeme.txt');
