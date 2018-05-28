@@ -12,3 +12,5 @@ var writeMe = fs.writeFileSync('writeme.txt',readMe +'Yeeeey');
 fs.readFile('readme.txt','utf8', function(err,data){
     console.log(data);
 });
+//Asynchronous write file
+//var writeMe = fs.writeFile('writeme.txt',readMe +'Yeeeey');
