@@ -7,7 +7,7 @@ var myReadStream = fs.createReadStream(__dirname + '/readme.txt','utf8');
 //    console.log('new chunk received: ');
 //    console.log(chunk);
 //}
-);
+//);
 
 //CREATING A WRITABLE STREAM
 var myWriteStream = fs.createWriteStream(__dirname + '/writeMe.txt');

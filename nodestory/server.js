@@ -5,7 +5,14 @@ var fs = require('fs'); // we need this module for Step #1.5.
 http.createServer(function(request,response) {
 	response.writeHead(200); // Tell the client if response is good.
 	response.write('My server worked!'); // the response body
-	response.end(); // end the connection.
+    //USING PIPIS TO DISPLAY MESSAGE
+    var myReadStream = fs.createReadStream(__dirname + '/readme.txt','utf8');
+    myReadStream.pipe(response);
+
+
+
+	//response.end();
+    // end the connection.
 }).listen(3000); // you can change this to another port if you want, but then you would have to visit that port in the browser too.
 
 // STEP #1.5 Basic Server Continued...
