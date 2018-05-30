@@ -16,8 +16,16 @@ app.get('/contact',function(req,res){
     res.send('Welcome to the Contact Page');
 
 });
-app.get('/profile/:id',function(req,res){
+app.get('/person/:id',function(req,res){
     res.send('You requested to see a profile with the id of '+req.params.id);
+
+});
+//RENDERING VIEWS
+app.get('/profile/:name',function(req,res){
+     //INSERTING MORE DATA INTO THE VIEW
+    var data = {age:29,job:'ninja'};
+    res.render('profile',{person:req.params.name, data:data});
+
 
 });
 
