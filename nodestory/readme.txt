@@ -17,3 +17,6 @@ READABLE STREAM
 Allow node js to read data from a stream
 DUPLEX
 Can read and write to a stream
+NODE PACKAGE MANAGER
+It is a bunch of command line tools that can help us install third party packages/modules eg Express
+it is code that someOne else has written jst like bootsrap in css
