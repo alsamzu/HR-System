@@ -2,12 +2,14 @@ var express = require('express');
 
 var app = express();
 
+//SETING A VIEW ENGINE
 
+app.set('view engine', 'ejs');
 
 //RESPONDING TO A GET REQUEST
 
-app.get('/',function(req,res){
-    res.send('Welcome to the home Page');
+app.get('/about',function(req,res){
+    res.send('Welcome to the about Page');
 
 });
 app.get('/contact',function(req,res){
@@ -19,5 +21,11 @@ app.get('/profile/:id',function(req,res){
 
 });
 
+
+//SENDING A HTML PAGE
+app.get('/',function(req,res){
+    res.sendFile(__dirname+'/index.html');
+
+});
 
 app.listen(3000);
