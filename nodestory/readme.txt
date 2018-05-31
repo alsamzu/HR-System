@@ -28,3 +28,9 @@ ii) POST: Request made When we post data to a server. E.g When we post data from
 
 iii) DELETE
 iv) PUT
+
+Middleware
+It is the code that runs between response and request.
+
+Query Strings
+Additional data added to a HTTP request in the form of name value parse
