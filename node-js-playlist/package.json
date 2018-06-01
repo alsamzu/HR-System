@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/iamshaunjp/node-js-playlist/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme"
+  "homepage": "https://github.com/iamshaunjp/node-js-playlist#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
 }
