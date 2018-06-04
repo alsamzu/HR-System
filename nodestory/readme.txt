@@ -6,6 +6,8 @@ SOCKET
 A channel which infomation can be sent.Infomation is sent via a protocal called TCP. Data is spilt into smaller sections called Packets.
 PORTS
 A program running on a computer can listen for requests sent to a particular port number.
+Port is a type of software connection point used by the TCP/IP proticol and the connecting computer.
+e.g If 2 people want to meet and there are 2walls between them and each wall has 3 doors they have to open the same door on each wall so that they can meet.
 BUFFER
 Temporary storage spot for a chunk of data that is being transffered from one place to another. The buffer is filled with data then passed along. Transfer small chunks of data at a time.
 STREAM
