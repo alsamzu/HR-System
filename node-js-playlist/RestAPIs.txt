@@ -1,0 +1,6 @@
+URI(Uniform Resource Identifier)
+It is a string of characters used to identify a resource on the internet either by location or name or both.
+
+REPRESENTATIONAL STATE TRANSFER
+A REST API defines a set of functions which developers can perform requests and receive responses via HTTP protocol such as GET and POST.
+REST is the underlying architecture of the web.
