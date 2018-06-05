@@ -1,7 +1,9 @@
 URI(Uniform Resource Identifier)
 It is a string of characters used to identify a resource on the internet either by location or name or both.
-URL(Uniform Resource LOCATER)
+
+URL(Uniform Resource Locater)
 It is a string of charcters but it refers to just the address.
+
 URN(Uniform Resource Name)
 Refers to the name.
 
