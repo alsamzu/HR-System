@@ -5,7 +5,7 @@ var fs = require('fs'); // we need this module for Step #1.5.
 http.createServer(function(request,response) {
 	response.writeHead(200); // Tell the client if response is good.
 	response.write('My server worked!'); // the response body
-    //USING PIPIS TO DISPLAY MESSAGE
+    //USING PIPES TO DISPLAY MESSAGE
     var myReadStream = fs.createReadStream(__dirname + '/readme.txt','utf8');
     myReadStream.pipe(response);
 
