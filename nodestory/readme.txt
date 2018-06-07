@@ -36,3 +36,6 @@ It is the code that runs between response and request.
 
 Query Strings
 Additional data added to a HTTP request in the form of name value parse
+
+USE $jshint nameofapp.js to look out for errors
+
