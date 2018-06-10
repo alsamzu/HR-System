@@ -28,8 +28,8 @@ i) GET:Request made when we type a url into an address bar
 
 ii) POST: Request made When we post data to a server. E.g When we post data from a web form to a server.
 
-iii) DELETE
-iv) PUT
+iii) DELETE:Request made When we delete data on a server
+iv) PUT:Request made When we Update data to a server
 
 Middleware
 It is the code that runs between response and request.

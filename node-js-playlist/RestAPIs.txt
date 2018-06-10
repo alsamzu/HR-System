@@ -11,3 +11,4 @@ Refers to the name.
 REPRESENTATIONAL STATE TRANSFER
 A REST API defines a set of functions which developers can perform requests and receive responses via HTTP protocol such as GET and POST.
 REST is the underlying architecture of the web.
+It is an architecture style for designing networked applications. Relies on stateless client-server protocol almost always HTTP
