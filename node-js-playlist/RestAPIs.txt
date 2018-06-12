@@ -13,3 +13,11 @@ A REST API defines a set of functions which developers can perform requests and 
 REST is the underlying architecture of the web.
 It is an architecture style for designing networked applications. Relies on stateless client-server protocol almost always HTTP
 A REST API is an api that uses HTTP requests to GET POST PUT and DELETE data.
+A REST API is an api that uses HTTP requests to GET POST PUT and DELETE data.
+
+REST PROPERTIES
+They make use of resource-based URLs
+They make use of HTTP methods
+They make use of HTTP status codes
+
+
