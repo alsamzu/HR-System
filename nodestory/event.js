@@ -10,7 +10,7 @@
 //myEmitter.emit('someEvent',"The event was emitted");
 
 //UTILITY MODULE
-//Util module allows us to inherit certain things build in nodeJs
+//Util module allows us to inherit certain things from objects built in nodeJs
 
 var events = require('events');
 var util = require('util');
