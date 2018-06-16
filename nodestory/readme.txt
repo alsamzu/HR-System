@@ -42,3 +42,5 @@ USE $jshint nameofapp.js to look out for errors
 EXPRESS PACKAGE
 Helps us in routing Templating and Search:
 1) Write handlers for requests with different HTTP verbs at different URL paths (routes).
+2) Integrate with "view" rendering engines in order to generate responses by inserting data into templates.
+3) Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
