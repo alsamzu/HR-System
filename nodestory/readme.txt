@@ -38,5 +38,7 @@ Query Strings
 Additional data added to a HTTP request in the form of name value parse
 
 USE $jshint nameofapp.js to look out for errors
+
 EXPRESS PACKAGE
-Helps us in routing Templating and Search
+Helps us in routing Templating and Search:
+1) Write handlers for requests with different HTTP verbs at different URL paths (routes).
