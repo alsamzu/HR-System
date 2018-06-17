@@ -45,4 +45,6 @@ Helps us in routing Templating and Search:
 2) Integrate with "view" rendering engines in order to generate responses by inserting data into templates.
 3) Set common web application settings like the port to use for connecting, and the location of templates that are used for rendering the response.
 4) Add additional request processing "middleware" at any point within the request handling pipeline.
+Express provides methods to specify what function is called for a particular HTTP verb (GET, POST, SET, etc.) and URL pattern ("Route"), and methods to specify what template ("view") engine is used, where template files are located, and what template to use to render a response. You can use Express middleware to add support for cookies, sessions, and users, getting POST/GET parameters, etc. You can use any database mechanism supported by Node (Express does not define any database-related behaviour).
+
 
