@@ -18,3 +18,4 @@ app.use('/someroute', a_middleware_function);
 app.get('/', a_middleware_function);
 
 app.listen(3000);
+app.listen(3000);
