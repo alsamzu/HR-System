@@ -2,7 +2,7 @@ var xhr = require('xhr')
 var qs = require('querystring')
 var cookie = require('cookie-cutter')
 var config = require('./config')
-
+var cookies = require('cookie-cutter')
 start()
 
 function start () {
