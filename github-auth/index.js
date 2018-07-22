@@ -22,12 +22,12 @@ function start () {
     renderLink()
   }
 }
-
 function renderProfile (profile) {
-  var p = document.createElement('p')
-  p.innerHTML = profile.name
-  document.body.appendChild(p)
-    var logout = document.createElement('a')
+//  var prof = document.createElement('p')
+//  prof.innerHTML = profile.name
+//  document.body.appendChild(prof)
+
+  var logout = document.createElement('a')
   logout.href = '#'
   logout.innerHTML = 'log out'
   document.body.appendChild(logout)
@@ -73,8 +73,12 @@ function getCode () {
 
 function renderLink () {
   var ghURL = 'https://github.com/login/oauth/authorize?client_id=' + config.client_id + '&scope=user&redirect_uri=' + config.redirect_uri
+var hello = document.createElement('h1')
+hello.innerHTML = 'Welcome to Ebooks'
   var link = document.createElement('a')
   link.href = ghURL
   link.innerHTML = 'Log in with GitHub'
+    document.body.appendChild(hello)
   document.body.appendChild(link)
+
 }
