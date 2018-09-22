@@ -73,12 +73,13 @@ function getCode () {
 
 function renderLink () {
   var ghURL = 'https://github.com/login/oauth/authorize?client_id=' + config.client_id + '&scope=user&redirect_uri=' + config.redirect_uri
-var hello = document.createElement('h1')
+var hello = document.createElement('h1');
 hello.innerHTML = 'Welcome to Ebooks'
   var link = document.createElement('a')
   link.href = ghURL
   link.innerHTML = 'Log in with GitHub'
     document.body.appendChild(hello)
+
   document.body.appendChild(link)
 
 }
